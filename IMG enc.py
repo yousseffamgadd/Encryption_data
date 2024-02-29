@@ -51,8 +51,6 @@ if __name__ == "__main__":
     decrypted_image = "decrypted_image.png"
 
     encrypt_image(input_image, encrypted_image, key)
-    decrypt_image(encrypted_image, decrypted_image, key)
-
     print("Encryption done successfully.")
 
 if os.path.exists(encrypted_image):
